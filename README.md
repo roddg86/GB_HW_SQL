@@ -10,4 +10,6 @@
 
 [Stepik Интерактивный тренажер по SQL](https://stepik.org/lesson/297508/step/1?unit=279268)
 
+[Руководство по стилю SQL · SQL Style Guide](https://github.com/roddg86/GB_HW_SQL/blob/main/README.md)
+
 ### Семинар 2
