@@ -25,3 +25,20 @@ SELECT Manufacturer, Price FROM telephone WHERE ProductCount <= 2;
 -- 3. Выведите весь ассортимент товаров марки “Samsung”
 
 SELECT * FROM telephone WHERE Manufacturer LIKE "Samsung";
+
+
+-- 4.*** С помощью регулярных выражений найти: 4.1. Товары, в которых есть упоминание "Iphone"
+
+SELECT * FROM telephone WHERE ProductName REGEXP 'Iphone';
+
+-- 4.2. "Samsung"
+
+SELECT * FROM telephone WHERE Manufacturer REGEXP 'Samsung';
+
+-- 4.3.  Товары, в которых есть ЦИФРЫ
+
+SELECT * FROM telephone WHERE ProductName REGEXP '[:digit:]';
+
+-- 4.4.  Товары, в которых есть ЦИФРА "8" 
+
+SELECT * FROM telephone WHERE ProductName REGEXP '[%8%]';
