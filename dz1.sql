@@ -21,7 +21,7 @@ INSERT INTO `new_schema`.`telephone` (`product_name`, `manufacturer`, `product_c
 
 use new_schema;
 
-SELECT manufacturer, Price FROM telephone WHERE product_count <= 2;
+SELECT manufacturer, price FROM telephone WHERE product_count <= 2;
 
 -- 3. Выведите весь ассортимент товаров марки “Samsung”
 
