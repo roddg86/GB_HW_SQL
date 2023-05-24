@@ -13,3 +13,9 @@
 [Руководство по стилю SQL · SQL Style Guide](https://github.com/roddg86/GB_HW_SQL/blob/main/README.md)
 
 ### Семинар 2
+
+[NULL в SQL](https://habr.com/ru/articles/725214/)
+
+[Операторы фильтрации, IN, BETWEEN, LIKE](https://metanit.com/sql/sqlserver/4.6.php)
+
+### Семинар 3
