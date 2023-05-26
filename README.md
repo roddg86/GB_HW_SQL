@@ -19,3 +19,10 @@
 [Операторы фильтрации, IN, BETWEEN, LIKE](https://metanit.com/sql/sqlserver/4.6.php)
 
 ### Семинар 3
+
+[Подзапросы в основных командах SQL](https://metanit.com/sql/mysql/4.8.php)
+
+[MySQL: Агрегатные (групповые) функций](https://docs-python.ru/packages/klient-bd-mysql/agregatnye-funktsii-bd-mysql/)
+
+### Семинар 4
+
