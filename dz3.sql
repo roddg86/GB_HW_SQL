@@ -101,7 +101,7 @@ SELECT sallary FROM staff ORDER BY sallary;
 
 -- 9. ** Отсортируйте по возрастанию поле “Зарплата” и выведите 5 строк с наибольшей заработной платой (возможен подзапрос)
 
-SELECT * FROM staff ORDER BY sallary DESC LIMIT 5; 
+SELECT * FROM (SELECT * FROM staff ORDER BY sallary DESC LIMIT 5) AS sallary ORDER BY sallary; 
 
 -- 10. Выполните группировку всех сотрудников по специальности , суммарная зарплата которых превышает 100000
 
