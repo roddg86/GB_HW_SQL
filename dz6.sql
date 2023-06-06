@@ -26,17 +26,17 @@ CALL times(123456);
 DELIMITER //
 CREATE PROCEDURE even_numbers(`start` INT, `end` INT)
 BEGIN
-	DECLARE i INT DEFAULT `start`;
+	DECLARE num INT DEFAULT `start`;
     DECLARE result TEXT DEFAULT NULL;
-    WHILE  i<=`end` DO
-        IF i%2 = 0 THEN
+    WHILE  num<=`end` DO
+        IF num%2 = 0 THEN
 			IF result IS NULL THEN
-				SET result = concat(i);
+				SET result = concat(num);
 			ELSE
-				SET result = concat(result, ',', i);
+				SET result = concat(result, ',', num);
 			END IF;
 		END IF;
-        SET i = i + 1;
+        SET num = num + 1;
     END WHILE;
 	SELECT result;
 END //
