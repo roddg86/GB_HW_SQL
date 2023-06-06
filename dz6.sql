@@ -19,7 +19,7 @@ BEGIN
     SET hours = hours % hours_per_days;
 
     SET result = concat(days, ' days ', hours, ' hours ', minutes, ' minutes ', seconds, ' seconds ');
-    return result;
+    RETURN result;
 END //
 DELIMITER ;
 
